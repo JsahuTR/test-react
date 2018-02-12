@@ -30,6 +30,8 @@ const RightNav = () => {
     return (
       <Nav pullRight>
         <NavLink name="Sign Out" path="/signout" />
+        <NavLink path="/signin" name="Sign in" />
+        <NavLink path="/signup" name="Sign up" />
       </Nav>
     );
   }
